@@ -1,8 +1,8 @@
 public class ClassNext {
     int intExample = 10;
-
-    String getInt(){
-        return ("int value is: " + intExample);
+    int getInt(){
+        System.out.println( " --- " + intExample + " --- ");
+        return intExample;
     }
 
 }
